@@ -1,9 +1,14 @@
+/*
+Covid 19 Data Exploration 
+Skills used: Windows Functions, Aggregate Functions, Converting Data Types, Joins, CTE's, Temp Tables,  Creating Views
+*/
+
 Select *
 	From PortfolioProject..CovidDeaths
 	Where continent is not null 
 	order by 3,4
 
-	-- Select Data that I will bee starting with
+	-- Select Data that I will be starting with
 
 Select Location, date, total_cases, new_cases, total_deaths, population
 From PortfolioProject..CovidDeaths
